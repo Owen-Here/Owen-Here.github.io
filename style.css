@@ -1,0 +1,77 @@
+body {
+    background-image: radial-gradient(rgba(165,187,235), rgba(163,222,183));
+    background-repeat: repeat;
+    background-color: white;
+    background-position: 0px 0px;
+    background-size: 100% 10px;
+    animation: moveBackground 1s linear 0s infinite;
+}
+
+@keyframes moveBackground {
+    0% {background-position: 0px 0px;}
+    100% {background-position: 0px 10px;}
+}
+  
+.topBar {
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg, rgba(190, 180, 256, .5), rgba(240, 240, 256, .5));
+    position: absolute;
+    left: 50%;
+    top: 1.5em;
+    width: calc(100% - 1em);
+    height: 4em;
+    transform: translate(-50%, 0);
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgba(150, 150, 150, 1);
+}
+  
+.topBar img {
+    position: relative;
+    height: calc(100% - .5em);
+    top: 50%;
+    left: .5em;
+    transform: translate(0, -50%);
+    margin-right: .75em;
+}
+  
+.topBar button {
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    position: relative;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgba(150, 150, 150, 1);
+    background-color: rgba(0, 0, 0, 0);
+    height: calc(100% - 0.5em);
+    top: 25%;
+    transform: translate(0, -55%);
+    margin-right: 2px;
+}
+
+.mainDiv {
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg, rgba(190, 180, 256, .5), rgba(240, 240, 256, .5));
+    position: absolute;
+    left: 50%;
+    width: calc(100% - 1em);
+    height: 1em;
+    top: 7em;
+    transform: translate(-50%, 0);
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgba(150, 150, 150, 1);
+    block-size: fit-content;
+    overflow:hidden;
+  }
+
+  .mainDiv p {
+    font-weight: bold;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgba(150, 150, 150, 1);
+    display: inline-block;
+    margin: .25em;
+    padding: .5em;
+  }
