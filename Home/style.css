@@ -1,6 +1,6 @@
 body {
-    background-color: white;
-  }
+    background-image: radial-gradient(rgba(165,187,235), rgba(163,222,183));
+}
   
 .topBar {
     box-sizing: border-box;
