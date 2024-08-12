@@ -73,3 +73,13 @@ body {
     margin: .25em;
     padding: .5em;
 }
+
+.mainDiv img {
+    border-style: double;
+    border-width: 5px;
+    border-color: rgba(150, 150, 150, 1);
+    display: inline-block;
+    margin: .25em;
+    padding: .5em;
+    height: 3em;
+}
