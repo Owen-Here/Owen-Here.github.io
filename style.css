@@ -89,6 +89,7 @@ body {
 
 .mainDiv a {
     margin: .25em;
+    display: contents;
 }
 
 .mainDiv a img {
