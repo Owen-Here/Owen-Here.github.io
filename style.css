@@ -73,7 +73,6 @@ body {
     border-style: double;
     border-width: 5px;
     border-color: rgba(150, 150, 150, 1);
-    display: inline-block;
     margin: .25em;
     padding: .5em;
     display: inline-block;
@@ -86,9 +85,12 @@ body {
     margin: .25em;
     padding: .25em;
     height: 6em;
-    display: inline-block;
 }
 
 .mainDiv a {
     margin: .25em;
+}
+
+.mainDiv a img {
+    display: inline-block;
 }
