@@ -62,8 +62,6 @@ body {
     border-style: ridge;
     border-width: 10px;
     border-color: rgba(150, 150, 150, 1);
-    block-size: fit-content;
-    overflow:hidden;
 }
 
 .mainDiv p {
