@@ -97,3 +97,12 @@ body {
 .mainDiv a img {
     display: inline-block;
 }
+
+.mainDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.mainDiv {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
