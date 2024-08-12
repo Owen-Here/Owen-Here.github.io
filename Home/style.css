@@ -64,9 +64,9 @@ body {
     border-color: rgba(150, 150, 150, 1);
     block-size: fit-content;
     overflow:hidden;
-  }
+}
 
-  .mainDiv p {
+.mainDiv p {
     font-weight: bold;
     border-style: double;
     border-width: 5px;
@@ -74,4 +74,4 @@ body {
     display: inline-block;
     margin: .25em;
     padding: .5em;
-  }
+}
