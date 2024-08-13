@@ -76,7 +76,6 @@ body {
     border-color: rgba(150, 150, 150, 1);
     margin: .25em;
     padding: .5em;
-    display: inline-block;
 }
 
 .mainDiv img {
