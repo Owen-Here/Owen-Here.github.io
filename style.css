@@ -80,7 +80,7 @@ body {
     border-color: rgba(150, 150, 150, 1);
     margin: .25em;
     padding: .5em;
-    display: block;
+    display: inline-block;
 }
 
 .mainDiv img {
@@ -90,6 +90,7 @@ body {
     margin: .25em;
     padding: .25em;
     height: 6em;
+    display: inline-block;
 }
 
 .mainDiv a {
