@@ -93,10 +93,6 @@ body {
     margin-right: .5em;
 }
 
-.mainDiv a img {
-    display: inline-block;
-}
-
 .mainDiv::-webkit-scrollbar {
   display: none;
 }
