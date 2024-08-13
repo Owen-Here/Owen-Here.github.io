@@ -70,7 +70,7 @@ body {
 }
 
 .mainDiv div {
-    display: inline;
+    display: inline-block;
 }
 
 .mainDiv p {
