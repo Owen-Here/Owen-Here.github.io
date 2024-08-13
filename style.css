@@ -91,7 +91,6 @@ body {
 .mainDiv a {
     margin: .25em;
     margin-right: .5em;
-    display: contents;
 }
 
 .mainDiv a img {
