@@ -69,6 +69,10 @@ body {
     overflow: scroll;
 }
 
+.mainDiv div {
+    display: inline;
+}
+
 .mainDiv p {
     font-weight: bold;
     border-style: double;
@@ -76,6 +80,7 @@ body {
     border-color: rgba(150, 150, 150, 1);
     margin: .25em;
     padding: .5em;
+    display: inline-block;
 }
 
 .mainDiv img {
